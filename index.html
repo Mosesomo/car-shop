@@ -15,6 +15,9 @@
 
 <!--styling-->
 <link rel="stylesheet" href="inst.css">
+
+<!--javascript-->
+<script src="insta.js"></script>
 </head>
 <body>
     <!--Header section-->
@@ -22,7 +25,7 @@
         <div class="logo">
             <h2>CAR-<span class="logo-special">insta</span></h2>
         </div>
-        <div class="header-list">
+        <div class="header-list" id="header-list">
             <ul class="list">
                 <li class="special">
                     <div class="specialSup"></div>
@@ -38,8 +41,9 @@
                 <div id="cart">4</div>
             <i class="fa-solid fa-bag-shopping"></i>
             </div>
-            <i class="fa-solid fa-pipe"></i>
                 <i class="fa fa-search"></i>
+                <i class="fa-solid fa-bars" id="open-btn" onclick="openmenu()"></i>
+                <i class="fa-solid fa-times" id="close-btn" onclick="closemenu()"></i>
             </div>
         </div>
     </div>
